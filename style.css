@@ -7,12 +7,29 @@ html {
 }
 
 body {
-    margin: 0;
     font-size: 2rem;
     display: flex;
     flex: 1;
     min-height: 100vh;
     align-items: center;
+    position: relative;
+}
+
+.container {
+    position: relative;
+}
+
+h1 {
+    font-size : 150px;
+    top: 100px;
+    color: white;
+}
+
+.clock {
+    display: flex;
+    position: relative;
+    right: 650px;
+    bottom: -300px;
 }
 
 .js_clock {
@@ -28,6 +45,8 @@ body {
         inset 0 0 0 3px #EFEFEF,
         inset 0 0 10px black,
         0 0 10px rgba(0,0,0,0.2);
+    bottom: 100px;
+    left: 300px;
 }
 
 .js_clock_face {
